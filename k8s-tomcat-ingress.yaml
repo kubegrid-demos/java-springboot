@@ -1,0 +1,17 @@
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: demo-tomcat
+  # namespace: kube-system
+  annotations:
+    kubernetes.io/ingress.class: traefik
+spec:
+  rules:
+  - host: tomcat.*.xip.io
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: demo-tomcat
+          servicePort: 80  
