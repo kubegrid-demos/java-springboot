@@ -8,7 +8,7 @@ metadata:
     kubernetes.io/ingress.class: traefik
 spec:
   rules:
-  - host: tomcat.*.xip.io
+  - host: *.xip.io
     http:
       paths:
       - path: /
