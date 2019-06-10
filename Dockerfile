@@ -1,5 +1,5 @@
 FROM maven:3.6.1-jdk-8-slim as builder
-COPY source-files/demo /code
+COPY demo /code
 WORKDIR /code
 RUN mvn clean package
 
