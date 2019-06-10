@@ -15,4 +15,4 @@ spec:
       - path: /
         backend:
           serviceName: demo-tomcat
-servicePort: 80 
+          servicePort: 80 
