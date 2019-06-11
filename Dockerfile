@@ -1,7 +1,5 @@
 FROM alpine:3.9.4
-RUN echo "PHASE 1"
 CMD ["bash"]
-RUN echo "PHASE 2"
 
 # FROM maven:3.6.1-jdk-8-slim as builder
 # COPY demo /code
