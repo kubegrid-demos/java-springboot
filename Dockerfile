@@ -1,6 +1,6 @@
 # FROM alpine:3.9.4
 # CMD ["bash"]
-
+ 
 FROM maven:3.6.1-jdk-8-slim as builder
 COPY demo /code
 WORKDIR /code
