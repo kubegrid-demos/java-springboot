@@ -17,7 +17,7 @@ public class HelloController {
         } catch (UnknownHostException e) {
             ipAddress = "unknown";
         }
-        return "Greetings from Spring Boot (v2)!<br>" + "IP address: " + ipAddress + "\n";
+        return "Greetings from Spring Boot (v3)!<br>" + "IP address: " + ipAddress + "\n";
     }
 
 }
